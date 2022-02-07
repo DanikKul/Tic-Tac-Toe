@@ -1,0 +1,241 @@
+html{
+    background: #494563;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-container h1{
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #816e69;
+    background-color: #574b3c;
+    font-size: 45px;
+}
+
+.main-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+}
+
+.players{
+    width: 400px;
+    height: 200px;
+    background-color: #816e69;
+    border-width: 20px;
+    border-style: ridge;
+    border-color: #574b3c;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition-duration: 0.7s;
+}
+
+.players p{
+    font-size: 35px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+}
+
+.btn{
+    font-size: 30px;
+    color: white;
+    width: 120px;
+    background-color: #757572;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: #574b3c;
+    transition-duration: 0.5s;
+}
+
+.btn:hover{
+    background-color:  #321a88;
+}
+
+.winner{
+    width: 400px;
+    height: 200px;
+    background-color: #816e69;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #574b3c;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    transition-duration: 0.7s;
+}
+
+.winner p{
+    font-size: 40px;
+    width: 400px;
+}
+
+.winner button{
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: #757572;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: #494563;
+    transition-duration: 0.5s;
+}
+
+.winner button:hover{
+    background-color: black;
+}
+
+.board{
+    display: none;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.7s;
+}
+
+#board{
+    width: 360px;
+    height: 360px;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #816e69;
+    background-color: #816e69;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: inherit;
+}
+
+.box:hover{
+
+}
+
+.recent-games{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    right: 30px;
+    background-color: #5f7e88;
+    border-width: 20px;
+    border-style: ridge;
+    border-color: #816e69;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recent-games-container{
+    width: 400px;
+    height: 400px;
+}
+
+h2{
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.recent-games p{
+    width: 400px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    position: absolute;
+    border-width: 20px;
+    border-style: ridge;
+    border-color: #816e69;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    left: 30px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #5f7e88;
+}
+
+.leader-container{
+    width: 400px;
+    height: 400px;
+}
+
+.leader-container ol li{
+    text-align: left;
+}
+
+.footer-container{
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    float: bottom;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #816e69;
+    background-color: #5f7e88;
+    bottom: 15px;
+    box-sizing: border-box;
+}
+
+.github-link{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.rss-link{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.github-link a{
+    transition-duration: 1s;
+    font-size: 20px;
+}
+
+.github-link a:hover {
+    font-size: 30px;
+}
