@@ -1,3 +1,5 @@
-Rot's algorithm for Mac OS
+# Tic-Tac-Toe
+
+Classic tic-tac-toe game in browser
 
 @DanikKul
